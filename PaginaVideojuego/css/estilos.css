@@ -1,0 +1,74 @@
+.encabezado{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F1C40F;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F1C40F;
+    text-align: center;
+}
+
+.slider-frame{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider-frame ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 1050px;
+    height: 590px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.cont1 {
+    background-color: rgba(46, 64, 83 , 0.5);
+}
+
+.cont2 {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgba(46, 64, 83 , 0.9);
+}
+
+.centrado {
+    margin: auto;
+}
+
+.sinopsis {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EAF2F8;
+    text-align: justify;
+}
+
+.espacio1 {
+    height: 50px;
+}
